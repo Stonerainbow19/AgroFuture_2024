@@ -1,0 +1,68 @@
+/*Importação de arquivos CSS*/
+
+@import url('header.css');
+@import url('sec01.css');
+@import url('bg-video.css');
+@import url('sec02.css');
+@import url('sec03.css');
+@import url('sec04.css');
+@import url('sec05.css');
+@import url('sec06.css');
+@import url('sec07.css');
+@import url('footer.css');
+
+/*Importação de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root {
+    --cor-primaria:#000;
+    --cor-segundaria: #074d0770;
+    --cor-terciaria: #05050563;
+    --branco:#fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: "Dosis", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fixo {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    right: 1em;
+    z-index: 1000;
+    width: auto;
+}
+
+
+#fixo img {
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+#fixo img:hover {
+    width: 55px;
+    height: 55px;
+}
+
+#fixo a {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+

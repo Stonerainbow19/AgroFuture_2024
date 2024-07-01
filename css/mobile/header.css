@@ -1,0 +1,31 @@
+header {
+    background-color: var(--cor-primaria);
+    /*background: transparent;*/
+    width: 100%;
+    color: var(--branco);
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width:80px;
+    height: auto;
+    padding:10px 20px;
+}
+
+#menu-hamburguer{
+    width: auto;
+    height: 45px;
+}

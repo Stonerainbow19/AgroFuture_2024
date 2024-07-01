@@ -1,0 +1,53 @@
+#sec04 {
+    height: 40vh;
+    width: 100%;
+    color: white;
+    background-color: #292b2be1;
+    overflow: auto;
+}
+
+#sec04 h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#empresas {
+
+    background-color: white;
+    width: 80%;
+    height: 50%;   
+    margin: 3em auto 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#empresas img {
+    width: 100px;
+    height: auto;
+}
+
+@keyframes scrollInfinito {
+
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: calc(-50% - 5px);
+    }
+}
+
+.scroller {
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: max-content;
+    animation: scrollInfinito 20s linear infinite;
+}
+
+.item-scroll {
+    white-space: nowrap;
+}
+

@@ -1,0 +1,107 @@
+#sec01 {
+    position: relative;
+    color:white;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes digitando {
+    from {
+        width:0;
+    }
+}
+
+@keyframes piscando {
+    50% {
+        border-color:transparent ;
+    }
+}
+
+#titulo h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-right: 4px solid;
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 2s steps(21),
+    piscando 0.5s infinite step-end alternate;
+    margin-top: 10%;
+    font-size: 2.5em;
+}
+
+#titulo p {
+    white-space: nowrap;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#scroll-box {
+    position: relative;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10%;
+}
+
+#scroll {
+    width: 40px;
+    height: auto;
+
+}
+
+#scroll-box a {
+    text-decoration: none;
+    color: transparent;
+}
+
+         
+         
+         
+.btn {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #414d0b 0%, #727a17  51%, #414d0b  100%);
+    margin: 10px;
+    padding: 20px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;            
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    /*border: 1px solid black;*/
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    font-weight: 700;
+  }
+
+
+
+  

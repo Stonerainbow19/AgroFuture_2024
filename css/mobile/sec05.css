@@ -1,0 +1,54 @@
+#sec05 {
+    background-color: #1b1b1ba4;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+#sec05 h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 50px 0 0 0 ;
+}
+
+#sec05 h4 {
+    text-align: center;
+    color:#a9afa9d2;
+    font-size: 1em;
+    padding: 20px;
+    
+}
+
+#grafico {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grafico h3 {
+    font-size: 1em;
+    color: #46c246a4;
+    text-align: center;
+    padding-top:20px;
+    font-weight: bold;
+}
+
+#grafico span {
+    color:#a9afa9d2;
+    font-size: 0.7em; ;
+}
+
+.txt {
+    width:100%;
+    font-size: 0.9em;
+    padding: 20px 0;
+
+}
+
+
