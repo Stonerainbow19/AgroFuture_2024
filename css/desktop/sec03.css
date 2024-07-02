@@ -21,7 +21,14 @@
     padding: 20px 0;
 }
 
+.video {
+    border-radius: 20px ;
+}
+
 .video iframe {
     padding-top: 30px;
     width: 700px;
+    border-radius: 20px ;
+    filter: drop-shadow( 0 0 8px var(--cor-segundaria));
+    /*box-shadow: 0 0 10px var(--cor-segundaria);*/
 }
