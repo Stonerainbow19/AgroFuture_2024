@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "C:/Users/wesle/PycharmProjects/ProjetosPessoais/Agrinho-Robótica"
+		},
+		{
+			"path": "../../../EV3_python"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AgroFuture"
+	}
+}
