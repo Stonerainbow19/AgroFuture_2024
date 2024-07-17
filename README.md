@@ -4,6 +4,6 @@
 </div>
 
 
-<a href="">Acesse aqui<a> o site hospedado pelo GitHub Pages<a>
+<a href="">Acesse aqui<a> o site hospedado pelo <strong>GitHub Pages</strong>
 <br>
-<a href="">Acesse aqui<a> o site hospedado pelo Vercel
+<a href="">Acesse aqui<a> o site hospedado pelo <strong>Vercel</strong>
