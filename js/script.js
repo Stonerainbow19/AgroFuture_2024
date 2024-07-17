@@ -33,3 +33,61 @@ const ctx = document.getElementById('grafico1');
             }
         });
 
+
+
+
+
+const botao_mais =document.querySelectorAll(".mais-pergunta");
+const respostas = document.getElementById("caixa-respostas");
+const txt_resposta = document.getElementById("txt-resposta")
+let click = 1;
+
+const btn1 = document.getElementById("btn1");
+const btn2 = document.getElementById("btn2");
+const btn3 = document.getElementById("btn3");
+const btn4 = document.getElementById("btn4");
+
+
+
+
+function maisClick(btn) {
+
+        click +=1;
+        if (click%2==0){
+            respostas.style.display = "block";
+            for (var x=1;x < 40;x++){
+                console.log(x)
+                setTimeout(function() {
+                    respostas.style.width = x+"%";
+                  }, 200);
+            }
+
+            switch (btn){
+                case 1:
+                    txt_resposta.innerHTML = "<p>Ola Mundo1</p>";
+                    btn1.innerText ="X";
+                    break;
+                case 2:
+                    txt_resposta.innerHTML = "<p>Ola Mundo2</p>";
+                    break
+                
+                case 3:
+                    txt_resposta.innerHTML = "<p>Ola Mundo3</p>";
+                    break;
+    
+                case 4:
+                    txt_resposta.innerHTML = "<p>Ola Mundo4</p>";
+                    break
+            }
+        }
+        else {
+            for (var x=40;x > 0 ;x--){
+                console.log(x)
+                setTimeout(function() {
+                    respostas.style.width = x+"%";
+                  }, 200);
+            }
+        }
+
+    }
+

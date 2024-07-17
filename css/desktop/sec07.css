@@ -6,13 +6,13 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content:start;
+    justify-content:space-between;
     align-items: center;
     font-size: 2em;
     color: white;
 }
 
-#sec07 .caixa{
+#sec07 .caixa-perguntas{
     background-color: #141212;
     height: 90vh;
     width: 100vh;
@@ -21,7 +21,7 @@
 
 }
 
-.caixa h2 {
+.caixa-perguntas h2 {
     text-align: center;
     padding: 4rem 0;
 }
@@ -66,14 +66,6 @@
     transition: 1s all;
 }
 
-
-.resposta {
-    display: none;
-}
-.resposta .mais-pergunta:hover{ 
-    display: block;
-}
-
 .mais-pergunta:hover{
     cursor: pointer;
     background-color: var(--cor-segundaria);
@@ -84,4 +76,22 @@
 .txt-pergunta {
     padding: 0 0 0 2rem;
     font-weight: 600;
+}
+
+
+#caixa-respostas {
+    overflow: hidden;
+    background-color: rgb(29, 27, 27);
+    width: 0%;
+    height:80%;
+    border-radius: 5rem 0 0 5rem ;
+    display:none;
+    box-shadow: #1f1f1f73 5px 0px 20px;
+    transition: 2s all;
+}
+
+#txt-resposta{
+    padding: 2rem;
+    color: white;
+    height: auto;
 }
