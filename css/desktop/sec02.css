@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background-color: var(--cor-terciaria);
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,10 +80,17 @@
     z-index: 1;
   }
 
-  .front-card img {
-    width: 200px;
+  .cresce {
+    width: 300px;
     height: auto;
   }
+
+  .normal {
+
+      width: 200px;
+      height: auto;
+  }
+  
 
   .back-card {
       background-image: linear-gradient(
@@ -96,7 +103,7 @@
     transform: rotateY(-180deg);
     backface-visibility: hidden;
     color: white;
-    overflow: scroll;
+    overflow: auto;
   }
 
 
