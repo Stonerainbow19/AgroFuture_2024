@@ -6,4 +6,4 @@
 
 <a href="https://stonerainbow19.github.io/AgroFuture_2024/">Acesse aqui<a> o site hospedado pelo <strong>GitHub Pages</strong>
 <br>
-<a href="agro-future-2024.vercel.app/">Acesse aqui<a> o site hospedado pelo <strong>Vercel</strong>
+<a href="https://agro-future-2024.vercel.app/">Acesse aqui<a> o site hospedado pelo <strong>Vercel</strong>
