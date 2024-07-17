@@ -37,7 +37,7 @@ const ctx = document.getElementById('grafico1');
 
 
 
-const botao_mais =document.querySelectorAll(".mais-pergunta");
+const btn_plus =document.querySelectorAll(".mais-pergunta");
 const respostas = document.getElementById("caixa-respostas");
 const txt_resposta = document.getElementById("txt-resposta")
 let click = 1;
@@ -51,33 +51,54 @@ const btn4 = document.getElementById("btn4");
 
 
 function maisClick(btn) {
-
         click +=1;
+        abrirResposta(false);
         if (click%2==0){
             respostas.style.display = "block";
+            switch (btn){
+                case 1:
+                    txt_resposta.innerHTML = "<p>Ola Mundo1</p>";
+                    btn1.innerText ="x";
+                    abrirResposta();
+                    break;
+                case 2:
+                    txt_resposta.innerHTML = "<p>Ola Mundo2</p>";
+                    btn2.innerText ="x";
+                    abrirResposta();
+                    break
+                
+                case 3:
+                    txt_resposta.innerHTML = "<p>Ola Mundo3</p>";
+                    btn3.innerText ="x";
+                    abrirResposta();
+                    break;
+    
+                case 4:
+                    txt_resposta.innerHTML = "<p>Ola Mundo4</p>";
+                    btn4.innerText ="x";
+                    abrirResposta();
+                    break
+            }
+        }
+        else {
+            abrirResposta(false);
+            btn1.innerText = "+";
+            btn2.innerText = "+";
+            btn3.innerText = "+";
+            btn4.innerText = "+";
+        }
+
+    }
+
+
+
+function abrirResposta(status = true){
+        if(status){
             for (var x=1;x < 40;x++){
                 console.log(x)
                 setTimeout(function() {
                     respostas.style.width = x+"%";
                   }, 200);
-            }
-
-            switch (btn){
-                case 1:
-                    txt_resposta.innerHTML = "<p>Ola Mundo1</p>";
-                    btn1.innerText ="X";
-                    break;
-                case 2:
-                    txt_resposta.innerHTML = "<p>Ola Mundo2</p>";
-                    break
-                
-                case 3:
-                    txt_resposta.innerHTML = "<p>Ola Mundo3</p>";
-                    break;
-    
-                case 4:
-                    txt_resposta.innerHTML = "<p>Ola Mundo4</p>";
-                    break
             }
         }
         else {
@@ -86,8 +107,9 @@ function maisClick(btn) {
                 setTimeout(function() {
                     respostas.style.width = x+"%";
                   }, 200);
+                
             }
+
         }
 
     }
-
