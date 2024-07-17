@@ -83,8 +83,8 @@
     overflow: hidden;
     background-color: rgb(29, 27, 27);
     width: 0%;
-    height:80%;
-    border-radius: 5rem 0 0 5rem ;
+    height:90%;
+    border-radius: 2rem 0 0 2rem ;
     display:none;
     box-shadow: #1f1f1f73 5px 0px 20px;
     transition: 2s all;
