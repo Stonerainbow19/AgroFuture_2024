@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background-color: var(--cor-terciaria);
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@
     transform: rotateY(-180deg);
     backface-visibility: hidden;
     color: white;
-    overflow: scroll;
+    overflow: auto;
   }
 
 

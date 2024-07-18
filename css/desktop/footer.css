@@ -43,7 +43,10 @@ footer a {
     transition: 0.7s;
 }
 
-.links:hover {
-    font-size: 1.2em;
-    color: rgb(58, 56, 56);
+.links a {
+    transition: 1s all
+}
+
+.links:hover a {
+    color: green;
 }
