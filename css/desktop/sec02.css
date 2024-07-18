@@ -80,10 +80,17 @@
     z-index: 1;
   }
 
-  .front-card img {
-    width: 200px;
+  .cresce {
+    width: 300px;
     height: auto;
   }
+
+  .normal {
+
+      width: 200px;
+      height: auto;
+  }
+  
 
   .back-card {
       background-image: linear-gradient(
