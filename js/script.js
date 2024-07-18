@@ -52,7 +52,6 @@ const btn4 = document.getElementById("btn4");
 
 function maisClick(btn) {
         click +=1;
-        abrirResposta(false);
         if (click%2==0){
             respostas.style.display = "block";
             switch (btn){
