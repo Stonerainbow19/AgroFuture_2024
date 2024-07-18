@@ -1,3 +1,6 @@
+// Gráfico --> Seção 05
+
+
 const ctx = document.getElementById('grafico1');
 
         new Chart(ctx, {
