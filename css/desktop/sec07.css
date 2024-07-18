@@ -87,10 +87,10 @@
 
 #caixa-respostas {
     overflow: hidden;
-    background-color: rgb(29, 27, 27);
+    background-color: rgb(46, 40, 40);
     width: 0%;
-    height:90%;
-    border-radius: 2rem 0 0 2rem ;
+    height:100%;
+    /*border-radius: 100% 0 0 100% ;*/
     display:none;
     box-shadow: #1f1f1f73 5px 0px 20px;
     transition: 2s all;
