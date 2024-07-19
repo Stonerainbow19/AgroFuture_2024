@@ -143,8 +143,7 @@ function abrirMenu() {
     if(menuClick % 2 == 0 ){
         menuAtivado(false);
         menu.style.display = "block";
-        for (var y=1;y < 30;y++){
-            console.log(y)
+        for (var y=1;y < 50;y++){
             setTimeout(function() {
                 menu.style.height = y+"%";
               }, 100);
@@ -156,8 +155,7 @@ function abrirMenu() {
     }
     else {
         menuAtivado();
-        for (var y=30;y > 0;y--){
-            console.log(y)
+        for (var y=50;y > 0;y--){
             setTimeout(function() {
                 menu.style.height = y+"%";
               }, 100);
