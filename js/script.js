@@ -112,3 +112,27 @@ function abrirResposta(status = true){
         }
 
     }
+
+
+
+
+
+
+
+
+
+const menu = document.getElementById("menu");
+const menuHamburguer = document.getElementById("menu-hamburguer");
+let menuClick = 1;
+
+function abrirMenu() {
+    menuClick++
+    if(menuClick % 2 == 0 ){
+        menu.style.display = "block";
+
+    }
+    else {
+        menu.style.display = "none";
+    }
+
+    }
