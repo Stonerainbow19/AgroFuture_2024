@@ -29,12 +29,12 @@ img {
 
 #menu {
     overflow: hidden;
-    display: none;
+    display: block;
     top:0;
     right: 0;
     position: absolute;
     width: 20%;
-    height: 0%;
+    height: 8rem;
     background-color: rgb(31, 30, 30);
     border-radius: 0 0 0 2rem;
     z-index: 2000;
