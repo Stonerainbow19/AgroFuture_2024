@@ -4,7 +4,7 @@
     background-size: cover;
 
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -14,7 +14,7 @@
 
 #sec07 .caixa-perguntas{
     background-color: #141212;
-    height: 90vh;
+    height: 80%;
     width: 100vh;
     border-radius: 0 20px 20px 0;
     box-shadow: #1f1f1f73 5px 0px 20px;
@@ -89,7 +89,7 @@
     overflow: hidden;
     background-color: rgb(46, 40, 40);
     width: 0%;
-    height:90%;
+    height:80%;
     border-radius: 2rem 0 0 2rem ;
     display:none;
     box-shadow: #1f1f1f73 5px 0px 20px;

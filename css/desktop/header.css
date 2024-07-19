@@ -88,6 +88,12 @@ label span {
     z-index: 20;
 }
 
+#checkbox-menu{
+    opacity: 0;
+    margin: 0 2rem;
+}
+
+/*
 label span:nth-child(1){
     top: 0;
 }
@@ -97,10 +103,8 @@ label span:nth-child(2){
 label span:nth-child(3){
     top: 32px;
 }
-#checkbox-menu{
-    opacity: 0;
-    margin: 0 2rem;
-}
+
+
 
 
 #checkbox-menu:checked + label span:nth-child(1) {
@@ -117,6 +121,7 @@ label span:nth-child(3){
     transform: rotate(45deg);
     top: 15px;
 }
+    */
 
 /*
 #menu-hamburguer img{
