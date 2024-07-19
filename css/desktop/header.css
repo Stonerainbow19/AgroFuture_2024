@@ -3,13 +3,10 @@ header {
     /*background: transparent;*/
     width: 100%;
     color: var(--branco);
-
-
 }
 
 header nav {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,9 +25,99 @@ img {
     padding:10px 50px
 }
 
-#menu-hamburguer{
-    width: auto;
-    height: 45px;
+
+
+#menu {
+    display: none;
+    top:0;
+    right: 0;
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    background-color: rgb(31, 30, 30);
+    border-radius: 0 0 0 2rem;
+    z-index: 2000;
+}
+
+#menu ul {
+    margin-top: 0%;
+}
+
+#menu li {
+    width: 100%;
+    background-color: #363535;
+    padding: 1rem 0 ;
+    text-align: center;
+    border: 1px solid #202020;
+    z-index: 20;
 }
 
 
+#menu li a {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    z-index: 20;
+}
+
+#menu li a:hover {
+    background-color: #413e3e;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 44px;
+    width: 44px;
+}
+
+label span {
+    position:absolute;
+    display: block;
+    height: 6px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: white;
+    transition: 0.50s ease-in-out;
+    z-index: 20;
+}
+
+label span:nth-child(1){
+    top: 0;
+}
+label span:nth-child(2){
+    top: 16px;
+}
+label span:nth-child(3){
+    top: 32px;
+}
+#checkbox-menu{
+    opacity: 0;
+    margin: 0 2rem;
+}
+
+
+#checkbox-menu:checked + label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 15px;
+}
+
+#checkbox-menu:checked + label span:nth-child(2) {
+    opacity: 0;
+
+}
+
+#checkbox-menu:checked + label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 15px;
+}
+
+/*
+#menu-hamburguer img{
+    width: auto;
+    height: 45px;
+    cursor: pointer;
+}*/
