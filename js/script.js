@@ -123,16 +123,69 @@ function abrirResposta(status = true){
 
 const menu = document.getElementById("menu");
 const menuHamburguer = document.getElementById("menu-hamburguer");
+
 let menuClick = 1;
+
+
+
+const b1 = document.getElementById("b1");
+const b2 = document.getElementById("b2");
+const b3 = document.getElementById("b3");
+
+
+menuAtivado();
+
+
+
 
 function abrirMenu() {
     menuClick++
     if(menuClick % 2 == 0 ){
+        menuAtivado(false);
         menu.style.display = "block";
+        for (var y=1;y < 30;y++){
+            console.log(y)
+            setTimeout(function() {
+                menu.style.height = y+"%";
+              }, 100);
+        }
+        
+
+        
 
     }
     else {
-        menu.style.display = "none";
+        menuAtivado();
+        for (var y=30;y > 0;y--){
+            console.log(y)
+            setTimeout(function() {
+                menu.style.height = y+"%";
+              }, 100);
+        }
     }
 
+    }
+
+    function menuAtivado(status=true) {
+        if (status){
+            b1.style.opacity = 1;
+            b2.style.opacity = 1;
+            b3.style.opacity = 1;
+            b1.style.transform = "rotate(0)";
+            b3.style.transform = "rotate(0)";
+            b1.style.top = "0";
+            b2.style.top = "16px";
+            b3.style.top = "32px";
+        }
+        else {
+            b1.style.opacity = 1;
+            b2.style.opacity = 0;
+            b3.style.opacity = 1;
+            b1.style.top = "15px";
+            b1.style.transform = "rotate(-45deg)";
+            b3.style.top = "15px";
+            b3.style.transform = "rotate(45deg)";
+
+    
+        }
     }
