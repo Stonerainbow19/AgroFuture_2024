@@ -28,15 +28,17 @@ img {
 
 
 #menu {
+    overflow: hidden;
     display: none;
     top:0;
     right: 0;
     position: absolute;
     width: 20%;
-    height: 30%;
+    height: 0%;
     background-color: rgb(31, 30, 30);
     border-radius: 0 0 0 2rem;
     z-index: 2000;
+    transition: 1s all;
 }
 
 #menu ul {
@@ -45,23 +47,24 @@ img {
 
 #menu li {
     width: 100%;
-    background-color: #363535;
+    background-color: #413e3e;
+    background-color: rgb(31, 30, 30);
     padding: 1rem 0 ;
     text-align: center;
-    border: 1px solid #202020;
+    border: 1px solid #363636;
     z-index: 20;
 }
 
 
 #menu li a {
-    height: 100%;
     width: 100%;
     color: white;
     text-decoration: none;
     z-index: 20;
 }
 
-#menu li a:hover {
+
+#menu li:hover {
     background-color: #413e3e;
     cursor: pointer;
 }
