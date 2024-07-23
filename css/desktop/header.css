@@ -28,7 +28,7 @@ img {
 
 
 #menu {
-    overflow: hidden;
+    overflow: scroll;
     display: block;
     top:0;
     right: 0;
@@ -51,12 +51,11 @@ img {
     background-color: rgb(31, 30, 30);
     padding: 1em 0 ;
     text-align: center;
-    border: 1px solid #363636;
     z-index: 20;
 }
 
 
-#menu li a {
+#menu a {
     width: 100%;
     color: white;
     text-decoration: none;

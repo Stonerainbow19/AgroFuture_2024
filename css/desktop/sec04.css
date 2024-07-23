@@ -3,7 +3,7 @@
     width: 100%;
     color: white;
     background-color: #292b2be1;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #sec04 h2 {
