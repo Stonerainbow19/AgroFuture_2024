@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     background-color: #0e0e0ede;
+    background-color: #0a0a0ade;
 }
 
 #sec06 h2 {
@@ -72,7 +73,8 @@
 }
 
 .area:hover .topicos-txt {
-    display: block;
+    display: flex;
+    flex-direction: column;
     animation: 3s mostrar-texto;
     padding: 20px;
 }
@@ -91,3 +93,11 @@
     width: 64px;
     height: auto;
 }      */ 
+.areas-lista{
+    padding: 1rem;
+}
+
+.areas-lista li{
+    color: #cccacad5;
+    list-style:disc;
+}
