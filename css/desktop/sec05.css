@@ -85,8 +85,14 @@
     flex-direction: row;
     align-items: center;
     margin: 2rem 0 ;
+    transition: 1s ease-in-out;
     
 }
+
+.func-numero:hover {
+    border: 1px solid var(--cor-segundaria);
+}
+
 
 .numero {
     color: white;
@@ -100,3 +106,5 @@
     justify-content: center;
     align-items: center;
 }
+
+
