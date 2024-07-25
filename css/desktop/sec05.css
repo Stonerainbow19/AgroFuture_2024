@@ -1,6 +1,6 @@
 #sec05 {
     background-color: #1b1b1ba4;
-    background-color: #1d1c1c;
+    background-color: #131212;
     height: auto;
     width: 100%;
     color: white;
@@ -8,40 +8,59 @@
 
 #sec05 h2{
     text-align: center;
-    padding: 50px 0 0 0 ;
+    padding:3rem 0 0.5rem 0;
 }
 
 #sec05 h4 {
     text-align: center;
     color:#a9afa9d2;
     font-size: 1.2em;
-    padding: 20px;
+    
     
 }
 
-#grafico {
-    width: 80%;
+#sec05 p {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.grafico {
+    width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 50px;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /*align-items: center;*/
     flex-direction: row;
 }
 
-#grafico h3 {
+
+
+.grafico h3 {
     font-size: 2em;
     color: #46c246a4;
     text-align: center;
     padding-top:20px;
 }
 
-#grafico span {
+.grafico span {
     color:#a9afa9d2;
     font-size: 0.8em; ;
 }
+
+
+
+.graficos {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
 
 .txt {
     width:40%;
@@ -50,4 +69,34 @@
 
 }
 
+#func-numeros {
+    display: grid;
+    grid-template-columns: repeat(2, 25%);
+    padding: 2rem;
+}
 
+
+.func-numero {
+    width: 20rem;
+    height: 7rem;
+    background-color: rgb(29, 28, 28);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0 ;
+    
+}
+
+.numero {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #1d5723ef;
+    height: 100%;
+    width: 40%;
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

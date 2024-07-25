@@ -1,37 +1,105 @@
 // Gráfico --> Seção 05
 
+const grafico1 = document.getElementById('grafico1');
+const labels1 = [2000,2001,2003,2005,2007,2009,2011,2013,2015,2017,2019,2021,2023]
 
-const ctx = document.getElementById('grafico1');
+const dados1 = {
 
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-            labels: [2000,2001,2003,2005,2007,2009,2011,2013,2015,2017,2019,2021,2023],
-            datasets: [{
-                label: 'Acumulado',
-                data: [25,37,49,60,79,107,141,183,298,459,631,746,769],
-                borderWidth: 1,
-                backgroundColor:'#074d0770'
-            }
-        ,
-            {
+    labels: labels1,
+    datasets: [
+        {
+            label: 'Acumulado',
+            data: [25,37,49,60,79,107,141,183,298,459,631,746,769],
+            borderWidth: 1,
+            backgroundColor:'#074d0770'
+        },
+        {
             label: 'Novas',
             data: [25,8,12,11,19,28,34,42,115,161,172,115,23],
-            borderColor: '#FF6384',
-            backgroundColor: '#34c75a'
-            }   
-        
-        ]
-            },
-            
-            options: {
-            scales: {
-                y: {
-                beginAtZero: true
-                }
+            borderColor: '#34c75B',
+            backgroundColor: '#34c75a',
+            order:0,
+            type:'line'
+        }
+    ]
+};
+
+
+
+
+
+new Chart(grafico1, {
+
+    type:'bar',
+    data: dados1,
+    options: {
+
+        responsive: false,
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+          title: {
+            display: true,
+            text: 'Fonte: DISTRITO'
+          }
+        }
+      },
+})
+
+
+
+const grafico2 = document.getElementById("grafico2")
+const labels2 = ['Produção','Gestão e gerenciamento','Biotecnologia','Finanças','Cedeia de suprimentos', 'Agropecuária sustentável']
+const dados2 = {
+    labels : labels2,
+    datasets : [
+        {
+            label:'Números de Startups LATAM',
+            data: [378,193,104,36,36,35],
+            backgroundColor: '#074d0770',
+            borderWidth: 1
+
+
+    },
+    
+    {
+        label:'Número de Startups Brasil',
+        data: [281,154,80,30,26,27],
+        backgroundColor: '#34c75a',
+        borderWidth: 1
+
+    }
+]
+    
+}
+
+new Chart(grafico2, {
+
+    type:'bar',
+    data: dados2,
+    options: {
+        indexAxis: 'y',
+        elements: {
+            bar: {
+              borderWidth: 2,
             }
-            }
-        });
+          },
+        responsive: false,
+        plugins: {
+          legend: {
+            position: 'RIGHT',
+          },
+          title: {
+            display: true,
+            text: 'Fonte: DISTRITO'
+          }
+        }
+      },
+
+})
+
+
 
 
 

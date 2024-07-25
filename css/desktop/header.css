@@ -28,7 +28,7 @@ img {
 
 
 #menu {
-    overflow: scroll;
+    overflow: auto;
     display: block;
     top:0;
     right: 0;

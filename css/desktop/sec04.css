@@ -1,5 +1,5 @@
 #sec04 {
-    height: 40vh;
+    height: auto;
     width: 100%;
     color: white;
     background-color: #292b2be1;
@@ -10,7 +10,7 @@
 #sec04 h2 {
     color: rgb(255, 255, 255);  
     text-align: center;
-    padding-top: 40px;
+    padding-top: 3rem;
 }
 
 #empresas {
@@ -18,9 +18,10 @@
     background-color: white;
     width: 80%;
     height: 50%;   
-    margin: 3em auto 0 auto;
+    margin: 3rem auto 5rem auto;
     border-radius: 20px;
     overflow: hidden;
+
 }
 
 #empresas img {
