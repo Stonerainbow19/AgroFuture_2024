@@ -102,6 +102,11 @@
     font-weight: 700;
   }
 
-
+  @media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722115666 svg {
+        width: calc(149% + 1.3px);
+        height: 235px;
+    }
+}
 
   

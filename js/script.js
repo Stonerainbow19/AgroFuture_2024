@@ -11,13 +11,13 @@ const dados1 = {
             label: 'Acumulado',
             data: [25,37,49,60,79,107,141,183,298,459,631,746,769],
             borderWidth: 1,
-            backgroundColor:'#074d0770'
+            backgroundColor:'#94F87F'
         },
         {
             label: 'Novas',
             data: [25,8,12,11,19,28,34,42,115,161,172,115,23],
-            borderColor: '#34c75B',
-            backgroundColor: '#34c75a',
+            borderColor: '#0a3616',
+            backgroundColor: '#0a3616',
             order:0,
             type:'line'
         }
@@ -37,7 +37,7 @@ new Chart(grafico1, {
         responsive: false,
         plugins: {
           legend: {
-            position: 'top',
+            position: 'bottom',
           },
           title: {
             display: true,
@@ -57,7 +57,7 @@ const dados2 = {
         {
             label:'Números de Startups LATAM',
             data: [378,193,104,36,36,35],
-            backgroundColor: '#074d0770',
+            backgroundColor: '#0a3616',
             borderWidth: 1
 
 
@@ -66,7 +66,7 @@ const dados2 = {
     {
         label:'Número de Startups Brasil',
         data: [281,154,80,30,26,27],
-        backgroundColor: '#34c75a',
+        backgroundColor: '#94F87F',
         borderWidth: 1
 
     }
@@ -88,7 +88,7 @@ new Chart(grafico2, {
         responsive: false,
         plugins: {
           legend: {
-            position: 'RIGHT',
+            position: 'bottom',
           },
           title: {
             display: true,
