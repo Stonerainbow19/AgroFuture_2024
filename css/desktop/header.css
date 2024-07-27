@@ -1,6 +1,6 @@
 header {
-    background-color: var(--cor-primaria);
-    /*background: transparent;*/
+    /*background-color: var(--cor-primaria);*/
+    background: #000000e5;
     width: 100%;
     color: var(--branco);
 }
@@ -35,7 +35,7 @@ img {
     position: absolute;
     width: 20%;
     height: 0;
-    background-color: rgb(31, 30, 30);
+    background-color: #1f1e1edc;
     border-radius: 0 0 0 2rem;
     z-index: 2000;
     transition: 1s all;
@@ -48,7 +48,7 @@ img {
 #menu li {
     width: 100%;
     background-color: #413e3e;
-    background-color: rgb(31, 30, 30);
+    background-color: rgba(31, 30, 30, 0.384);
     padding: 1em 0 ;
     text-align: center;
     z-index: 20;
@@ -64,7 +64,7 @@ img {
 
 
 #menu li:hover {
-    background-color: #413e3e;
+    background-color: #413e3e7a;
     cursor: pointer;
 }
 

@@ -1,5 +1,6 @@
 #sec02 {
-    height: 100vh;
+  height: auto;
+    min-height: 100vh;
     width: 100%;
     background-color: var(--cor-terciaria);
     overflow: hidden;
@@ -7,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 #titulo-sec02 {
@@ -120,3 +122,23 @@
     transform: rotateY(0);
     z-index: 1;
   }
+  .custom-shape-divider-bottom-1722116726 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722116726 svg {
+    position: relative;
+    display: block;
+    width: calc(157% + 1.3px);
+    height: 85px;
+}
+
+.custom-shape-divider-bottom-1722116726 .shape-fill {
+    fill: #141414e1;
+}

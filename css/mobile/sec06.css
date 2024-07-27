@@ -1,7 +1,8 @@
 #sec06 {
     width: 100%;
     height: auto;
-    background-color: var(--cor-primaria);
+    background-color: #0c0b0b;
+    position: relative;
 }
 
 #sec06 h2 {
@@ -58,3 +59,4 @@
     width: 64px;
     height: auto;
 }       
+

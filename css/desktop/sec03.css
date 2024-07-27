@@ -8,6 +8,7 @@
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    position: relative;
 }
 
 .bloco-texto {
@@ -49,4 +50,34 @@
     /*
     filter: drop-shadow( 0 0 8px var(--cor-segundaria));*/
     /*box-shadow: 0 0 10px var(--cor-segundaria);*/
+}
+
+.custom-shape-divider-bottom-1722116853 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722116853 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1722116853 .shape-fill {
+    fill:  #0c0b0b;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722116853 svg {
+        width: calc(123% + 1.3px);
+        height: 235px;
+    }
 }
