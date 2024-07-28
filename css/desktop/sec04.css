@@ -122,11 +122,3 @@
 .custom-shape-divider-bottom-1722135888 .shape-fill {
     fill: #1f1f1fc5;;
 }
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722135888 svg {
-        width: calc(147% + 1.3px);
-        height: 235px;
-    }
-}
