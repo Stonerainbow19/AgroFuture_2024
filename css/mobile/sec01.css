@@ -41,7 +41,7 @@
     animation: digitando 2s steps(21),
     piscando 0.5s infinite step-end alternate;
     margin-top: 10%;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 #titulo p {
