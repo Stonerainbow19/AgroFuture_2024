@@ -109,21 +109,14 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1722118186 svg {
-    position: relative;
-    display: block;
-    width: calc(209% + 1.3px);
-    height: 122px;
-}
+
 
 .custom-shape-divider-bottom-1722118186 .shape-fill {
     fill: var(--cor-terciaria);
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722118186 svg {
-        width: calc(209% + 1.3px);
-        height: 235px;
-    }
+
+.custom-shape-divider-bottom-1722118186 svg {
+    width: calc(209% + 1.3px);
+    height: 235px;
 }
