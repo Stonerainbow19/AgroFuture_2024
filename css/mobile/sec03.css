@@ -16,13 +16,13 @@
     width: 100%;
     font-size: 1em;
     text-align: start;
-    padding: 2rem;
+    padding: 2rem 0;
 
 }
 
 .bloco-texto h2 {
     width: 100%;
-    font-size: 2rem;
+    font-size: 2rem 0;
     display: block;
     padding: 20px 0;
     font-weight: bold;
