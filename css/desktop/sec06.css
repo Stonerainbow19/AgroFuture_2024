@@ -113,10 +113,12 @@ transition: 0.5s ease-in-out;
 #grafico01 {
     background-color:  #0a0909;
     position: relative;
+    margin-bottom: 2rem;
 }
 #grafico02 {
     background-color: #171a15;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .custom-shape-divider-bottom-1722134220 {
