@@ -1,119 +1,81 @@
-/*
-#sec07 {
-    background-image: url('/img/green-wheat-field-landscape.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    font-size: 2em;
-    color: white;
-}
-
-#sec07 .caixa-perguntas{
-    background-color: #141212;
-    height: 80%;
-    width: 100vh;
-    border-radius: 0 20px 20px 0;
-    box-shadow: #1f1f1f73 5px 0px 20px;
-
-}
-
-
-
-.caixa-perguntas h2 {
-    font-size: 3rem;
-    text-align: center;
-    padding: 4rem 0;
-}
-
-
-#perguntas {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 50%;
-}
-
-
-
-
-.pergunta {
-    width: 60%;
-    height: 3rem;
-    background-color: white;
-    border: 5px #283826 solid;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1rem;
-    color: black;
-
-}
-
-
-.mais-pergunta {
-    width: 3rem;
-    height: 3rem;
-    border: none;
-    border-radius:  0 5px 5px 0;
-    background-color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: center;
-   border: 2px solid #283826;
-    transition: 1s all;
-}
-
-
-.mais-pergunta:hover{
-    cursor: pointer;
-    background-color: var(--cor-segundaria);
-}
-
-
-
-.txt-pergunta {
-    padding: 0 0 0 2rem;
-    font-weight: 600;
-
-
-}
-
-
-#caixa-respostas {
-    overflow: hidden;
-    background-color: rgb(46, 40, 40);
-    width: 0%;
-    height:80%;
-    border-radius: 2rem 0 0 2rem ;
-    display:none;
-    box-shadow: #1f1f1f73 5px 0px 20px;
-    transition: 2s all;
-}
-
-#txt-resposta{
-    padding: 2rem;
-    color: white;
-    height: auto;
-}
-*/
-
-
-
 #sec07 {
     width: 100%;
     min-height: 80vh;
     height: auto;
     background-color: #161414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #sec07 h2 {
     text-align: center;
     padding: 2rem 0;
 }
+
+#sec07 p {
+    margin-left:2rem ;
+    color: white;
+}
+
+.perguntas {
+    width: 50%;
+    min-height: 50vh;
+    background:transparent;
+}
+
+.pergunta {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #414141;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resposta{
+    overflow: hidden;
+    padding: 2rem 0 ;
+    background-color: #2c2c2c;
+    border: 1px solid #414141;
+    display: none;
+    height: 0;
+    transition: 1s all;
+
+}
+
+.mostrar-resp {
+    position: relative;
+    margin-right: 2rem;
+}
+
+.mostrar-resp span {
+    height: 1.5rem;
+    width: 5px;
+    background-color: white;
+    display: block;
+    transition: 0.4s ease-in-out;
+  
+}
+
+
+.mostrar-resp span:nth-child(1) {
+    transform: rotate(0);
+    position: absolute;
+}
+
+.mostrar-resp span:nth-child(2) {
+    transform: rotate(-90deg);
+}
+
+
+.mostrar-resp:hover {
+    cursor: pointer;
+}
+
+.mostrar-resp:hover span {
+    background-color: #3d493a;
+}
+
