@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 #sec06 h2{
@@ -21,6 +22,7 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 2.5em;
     text-align: center;
+    padding: 2rem 0;
 }
 
 #sec06 h4 {
@@ -37,6 +39,7 @@
 
 #sec06 p {
     font-size: 1.3em;
+    padding-bottom: 2rem;
 }
 
 
@@ -60,45 +63,151 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem 0;
+    position: relative;
+    min-height: 20vh;
 }
+
+
 
 .func-numeros {
-    width:15rem;
-    height: 5rem;
-    background-color: #fff7f7;
+    width:10rem;
+    height: 10rem;
+    background-color: rgb(113, 151, 103);
     border-radius: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     color: black;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
 }
 #sec06 .func-numeros p {
-
+    text-align: center;
     font-size: 1rem;
     margin: 0 auto;
+    width: 100%;
+    background-color: #94F87F;
+    padding: 1.3rem 0;
+    border-radius: 1rem 1rem 0 0;
+    font-weight: bold;
 }
 
 .numeros {
-    background-color: #284e22d7;
-    width: 40%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s ease-in-out;
-    border-radius: 1rem  0 0 1rem;
+justify-content: center;
+margin: auto 0 ;
+color: #ffffff;
+font-size: 2rem;
+transition: 0.5s ease-in-out;
+}
 
+.func-numeros:hover {
+    border: 2px solid white;
 }
 
 .func-numeros:hover .numeros{
-    width:60%;
     color: white;
     font-weight: bold;
 }
 
 #grafico01 {
     background-color:  #0a0909;
+    position: relative;
 }
 #grafico02 {
     background-color: #171a15;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1722134220 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722134220 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 32px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1722134220 .shape-fill {
+    fill: #171a15;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722134220 svg {
+        width: calc(100% + 1.3px);
+        height: 235px;
+    }
+}
+
+
+.custom-shape-divider-bottom-1722134318 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722134318 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 57px;
+}
+
+.custom-shape-divider-bottom-1722134318 .shape-fill {
+    fill: #0a0909;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722134318 svg {
+        width: calc(100% + 1.3px);
+        height: 235px;
+    }
+}
+
+
+
+.custom-shape-divider-bottom-1722137940 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1722137940 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 83px;
+}
+
+.custom-shape-divider-bottom-1722137940 .shape-fill {
+    fill: #161414;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722137940 svg {
+        width: calc(140% + 1.3px);
+        height: 235px;
+    }
+}
+
+#descricao {
+    padding-bottom: 10rem;
 }
