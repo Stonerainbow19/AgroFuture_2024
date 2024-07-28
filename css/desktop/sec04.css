@@ -3,6 +3,7 @@
     height: auto;
     background-color: #0e0e0ede;
     background-color: #0a0a0ade;
+    position: relative;
 }
 
 #sec04 h2 {
@@ -100,4 +101,32 @@
 .areas-lista li{
     color: #cccacad5;
     list-style:disc;
+}
+
+.custom-shape-divider-bottom-1722135888 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1722135888 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 32px;
+}
+
+.custom-shape-divider-bottom-1722135888 .shape-fill {
+    fill: #1f1f1fc5;;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722135888 svg {
+        width: calc(147% + 1.3px);
+        height: 235px;
+    }
 }

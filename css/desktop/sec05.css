@@ -5,6 +5,7 @@
     background-color: #292b2be1;
     background-color: #1f1f1fc5;
     overflow: hidden;
+    position: relative;
 }
 
 #sec05 h2 {
@@ -53,3 +54,31 @@
     white-space: nowrap;
 }
 
+.custom-shape-divider-bottom-1722136010 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1722136010 svg {
+    position: relative;
+    display: block;
+    width: calc(182% + 1.3px);
+    height: 63px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1722136010 .shape-fill {
+    fill: #0a0909;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722136010 svg {
+        width: calc(182% + 1.3px);
+        height: 235px;
+    }
+}

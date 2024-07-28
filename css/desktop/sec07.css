@@ -1,3 +1,4 @@
+/*
 #sec07 {
     background-image: url('/img/green-wheat-field-landscape.jpg');
     background-repeat: no-repeat;
@@ -65,7 +66,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
-    /*border: 2px solid #283826;*/
+   border: 2px solid #283826;
     transition: 1s all;
 }
 
@@ -100,4 +101,19 @@
     padding: 2rem;
     color: white;
     height: auto;
+}
+*/
+
+
+
+#sec07 {
+    width: 100%;
+    min-height: 80vh;
+    height: auto;
+    background-color: #161414;
+}
+
+#sec07 h2 {
+    text-align: center;
+    padding: 2rem 0;
 }
