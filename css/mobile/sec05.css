@@ -67,18 +67,10 @@
     position: relative;
     display: block;
     width: calc(182% + 1.3px);
-    height: 63px;
+    height: 23px;
     transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1722136010 .shape-fill {
     fill: #0a0909;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722136010 svg {
-        width: calc(182% + 1.3px);
-        height: 235px;
-    }
 }
