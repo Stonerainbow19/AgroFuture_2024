@@ -77,10 +77,3 @@
     fill:  #0c0b0b;
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722116853 svg {
-        width: calc(123% + 1.3px);
-        height: 235px;
-    }
-}
