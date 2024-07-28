@@ -37,7 +37,7 @@
 #itens {
   padding: 100px 0 ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
     
