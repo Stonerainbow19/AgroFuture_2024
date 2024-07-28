@@ -33,9 +33,9 @@
     height: 300px;
     width: 300px;
     background-color:  #0f0d0da4 ;
-    /*border-radius: 20px;*/
+    border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid var(--cor-segundaria);
@@ -122,4 +122,3 @@
 .custom-shape-divider-bottom-1722135888 .shape-fill {
     fill: #1f1f1fc5;;
 }
-
