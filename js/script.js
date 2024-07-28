@@ -255,3 +255,96 @@ function abrirMenu() {
     
         }
     }
+
+
+// Span
+const spn1 = document.getElementById("spn1");
+const spn2 = document.getElementById("spn2");
+
+const spn3 = document.getElementById("spn3");
+const spn4 = document.getElementById("spn4");
+
+const spn5 = document.getElementById("spn5");
+const spn6 = document.getElementById("spn6");
+
+const spn7 = document.getElementById("spn7");
+const spn8 = document.getElementById("spn8");
+
+
+
+
+
+//Respostas
+const res1 = document.getElementById("resp1");
+const res2 = document.getElementById("resp2");
+const res3 = document.getElementById("resp3");
+const res4 = document.getElementById("resp4");
+
+
+
+
+
+let clickMostrar = 1
+
+
+function mostrar(question){
+    clickMostrar++
+
+    if(clickMostrar%2==0) {
+        switch(question){
+            case 0:
+                spn1.style.transform = "rotate(-45deg)";
+                spn2.style.transform = "rotate(45deg)";
+                res1.style.display = 'block';
+                break;
+
+            case 1:
+                spn3.style.transform = "rotate(-45deg)";
+                spn4.style.transform = "rotate(45deg)";
+                res2.style.display = 'block';
+                break;
+
+            case 2:
+                spn5.style.transform = "rotate(-45deg)";
+                spn6.style.transform = "rotate(45deg)";
+                res3.style.display = 'block';
+                break;
+
+            case 3:
+                spn7.style.transform = "rotate(-45deg)";
+                spn8.style.transform = "rotate(45deg)";
+                res4.style.display = 'block';
+            
+        }
+
+            
+    }
+    else {
+        switch(question){
+            case 0:
+                spn1.style.transform = "rotate(0deg)";
+                spn2.style.transform = "rotate(-90deg)";
+                res1.style.display = 'none';
+                break;
+
+            case 1:
+                spn3.style.transform = "rotate(0deg)";
+                spn4.style.transform = "rotate(-90deg)";
+                res2.style.display = 'none';
+                break;
+
+            case 2:
+                spn5.style.transform = "rotate(0deg)";
+                spn6.style.transform = "rotate(-90deg)";
+                res3.style.display = 'none';
+                break;
+            
+            case 3:
+                spn7.style.transform = "rotate(0deg)";
+                spn8.style.transform = "rotate(-90deg)";
+                res4.style.display = 'none';
+        }
+    }
+
+
+}
