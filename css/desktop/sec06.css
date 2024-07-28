@@ -55,7 +55,10 @@
 }
 .txt {
     width: 40%;
-    margin-bottom: 3rem;
+}
+
+.gf {
+    margin-bottom: 2rem;
 }
 
 #func {
