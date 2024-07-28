@@ -1,11 +1,14 @@
 #sec02 {
-    height: 150vh;
+  height: auto;
+    min-height: 100vh;
     width: 100%;
     background-color: var(--cor-terciaria);
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 #titulo-sec02 {
@@ -15,45 +18,38 @@
   justify-content: center;
   align-items: center;
   color: white;
-  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
-#sec02 h2 {
-  color: white;
-  font-size: 1.7em;
-  font-weight: bold;
-  text-align: center;
-}
+
 
 #sec02 span {
-  font-size: 0.8em;
-  color: #a5a5a5;
-  margin: 0 auto;
+  font-size: 1.4em;
 }
 
+#sec02 h2{
+  color: #fff;
+}
 
 
 
 
 #itens {
-  padding: 10px 0 ;
+  padding: 100px 0 ;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
-    height: 90%;
     
   }
 
   .item {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: transparent;
     border-radius: 20px ;
     perspective: 700px;
     position: relative;
-    margin: 20px auto;
 
     
   }
@@ -86,10 +82,17 @@
     z-index: 1;
   }
 
-  .front-card img {
-    width: 200px;
+  .cresce {
+    width: 300px;
     height: auto;
   }
+
+  .normal {
+
+      width: 200px;
+      height: auto;
+  }
+  
 
   .back-card {
       background-image: linear-gradient(
@@ -102,7 +105,7 @@
     transform: rotateY(-180deg);
     backface-visibility: hidden;
     color: white;
-    overflow: scroll;
+    overflow: auto;
   }
 
 
@@ -119,3 +122,23 @@
     transform: rotateY(0);
     z-index: 1;
   }
+  .custom-shape-divider-bottom-1722116726 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722116726 svg {
+    position: relative;
+    display: block;
+    width: calc(157% + 1.3px);
+    height: 85px;
+}
+
+.custom-shape-divider-bottom-1722116726 .shape-fill {
+    fill: #141414e1;
+}
