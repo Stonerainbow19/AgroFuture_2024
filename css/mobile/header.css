@@ -13,16 +13,11 @@ header nav {
 }
 
 
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 img {
     width:80px;
     height: auto;
-    padding:10 30px
+    padding:5px 30px
 }
 
 
