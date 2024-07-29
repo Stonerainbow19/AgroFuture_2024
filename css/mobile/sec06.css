@@ -81,6 +81,7 @@
 
 
 .func-numeros {
+    margin: 2rem 0;
     width:10rem;
     height: 10rem;
     background-color: rgb(113, 151, 103);
