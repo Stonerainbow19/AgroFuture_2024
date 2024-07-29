@@ -3,7 +3,7 @@ header {
     background: #000000e5;
     width: 100%;
     color: var(--branco);
-    background-color: green;
+    /* background-color: yellow */
 }
 
 header nav {
