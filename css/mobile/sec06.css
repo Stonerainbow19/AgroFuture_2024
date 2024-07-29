@@ -58,7 +58,8 @@
 
 .gf {
     margin-bottom: 3rem;
-    height: 20%;
+    height: auto;
+    width: 100%;
 }
 
 #func {
