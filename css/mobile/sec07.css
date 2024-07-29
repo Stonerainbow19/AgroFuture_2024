@@ -15,12 +15,12 @@
 }
 
 #sec07 p {
-    margin-left:2rem ;
+    margin-left:1rem ;
     color: white;
 }
 
 .perguntas {
-    width: 90%;
+    width: 80%;
     min-height: 50vh;
     background:transparent;
     margin-bottom: 3rem;
