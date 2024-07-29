@@ -22,7 +22,7 @@
 .areas-container {
     display: flex;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
@@ -30,8 +30,8 @@
 
 
 .area{
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
     background-color:  #0f0d0da4 ;
     border-radius: 20px;
     display: flex;
@@ -82,8 +82,8 @@
 
 
 .area:hover {
-    height: 300px;
-    width: 500px;
+    height: 100px;
+    width: 400px;
     display: flex;
     flex-direction: row;
     font-size: 0.7;
