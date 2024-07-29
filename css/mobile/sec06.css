@@ -145,13 +145,7 @@ transition: 0.5s ease-in-out;
     fill: #171a15;
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722134220 svg {
-        width: calc(100% + 1.3px);
-        height: 235px;
-    }
-}
+
 
 
 .custom-shape-divider-bottom-1722134318 {
@@ -175,13 +169,7 @@ transition: 0.5s ease-in-out;
     fill: #0a0909;
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722134318 svg {
-        width: calc(100% + 1.3px);
-        height: 235px;
-    }
-}
+
 
 
 
