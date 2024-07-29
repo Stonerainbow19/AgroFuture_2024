@@ -71,7 +71,7 @@
     */
     display: grid;
     grid-template-columns: repeat(2,50%);
-
+    justify-content: center;
     padding: 2rem 0;
     position: relative;
     min-height: 20vh;
