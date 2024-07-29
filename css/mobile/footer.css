@@ -1,28 +1,85 @@
+
 footer {
-    height: 50vh;
+    background-color: #010301 ;
+    width: 100%;
+    min-height: 30vh;
+    height: auto;
+    color: rgb(114, 114, 114);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer h3 {
+    color: #474747;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.siga {
+    padding-top: 3rem;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes-sociais {
+    height: auto;
+
 }
 
 #redes-sociais img{
     width: 40px;
     height: auto;
-    padding:20px;
+    padding:30px;
     transition: 0.7s;
 }
 
-#redes-sociais img:hover {
-    width: 50px;
-    height: auto;
+.feedback {
+    width: 30%;
+    background-color: #2c2c2c;
+    height: 100%;
+    padding: 3rem;
 }
 
-.links {
+.feedback h3 {
+    color: white;
+}
+
+#caixa-feedback {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0 ;
     width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    transition: 0.7s;
-    font-size: 0.9em;
 }
 
-.links:hover {
-    font-size: 1em;
-    color: rgb(58, 56, 56);
+#caixa-feedback input {
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    background-color: #8f8f8f;
+    transition: 0.5s ease-in-out;
+    color: #010301;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #636363;
+    color: #ebebeb;
 }
