@@ -8,8 +8,19 @@
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+        * {
+            margin: 0;
+            padding: 0%;
+        }
+
         body {  
             background-color: #0e0c0c;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+;
+            position: relative;
         }
 
         @keyframes digitando {
@@ -40,13 +51,168 @@
         
         }
 
+        p {
+            color: white;
+            font-family: 'Dosis';
+            font-size: 1.2rem;
+        }
 
+        #titulo {
+            height: auto;
+            width: 100%;
+            min-height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: #94F87F;
+        }
 
+        #txt {
+            margin: 4rem auto;
+            width: 50%;
+        }
+
+        .custom-shape-divider-bottom-1722291941 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1722291941 svg {
+            position: relative;
+            display: block;
+            width: calc(151% + 1.3px);
+            height: 102px;
+        }
+
+        .custom-shape-divider-bottom-1722291941 .shape-fill {
+            fill: #0e0c0c;
+        }
+
+        a {
+            text-decoration: none;
+            color: #94F87F;
+            font-weight: bold;
+            transition: 1s ease-in-out;
+        }
+
+        a:hover {
+            color: #1e3b18;
+        }
+
+        
+        footer {
+            min-height: 30vh;
+            height: auto;
+            width: 100%;
+            background-color: #94F87F;
+            position: absolute;
+            bottom: 0;
+            position: relative;
+        }
+
+        .custom-shape-divider-top-1722294385 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .custom-shape-divider-top-1722294385 svg {
+            position: relative;
+            display: block;
+            width: calc(139% + 1.3px);
+            height: 154px;
+        }
+
+        .custom-shape-divider-top-1722294385 .shape-fill {
+            fill: #0e0c0c;
+        }
+
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        
+        @media  screen and  (min-device-width: 300px) and (max-device-width: 640px){
+            h1 {
+                color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        border-right: 4px solid;
+        width: 9ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: digitando 1s steps(10),
+        piscando 0.5s infinite step-end alternate;
+        margin:5% auto 0 auto;
+        font-size: 2.5em;
+            }
+            #txt {
+            margin: 0 auto 100% auto;
+            width: 90%;
+            padding: 2rem 0 ;
+        }
+
+        .custom-shape-divider-top-1722294385 svg {
+            position: relative;
+            display: block;
+            width: calc(139% + 1.3px);
+            height: 100px;
+        }
+    }
 
 
     </style>
 </head>
 <body>
-    <h1>Sobre nós</h1>
+    <div id="titulo">
+        <div>
+            <h1>Sobre nós</h1>
+
+        </div>
+
+        <div class="custom-shape-divider-bottom-1722291941">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+
+
+    <div id="txt">
+        <p>Olá, somos da AgroFuture e temos como objetivo disseminar sobre a importância das Agtechs
+            e as oportunidades que ela provém.
+        </p>
+        <p>
+            O projeto iniciou-se com a finalidade de participar do <a href="https://www.sistemafaep.org.br/agrinho/">Concurso Agrinho de Programação 2024</a>, seguindo o tema: "Do campo a cidade: colhendo oportunidades".
+            Esse concurso é desenvolvido através da Sistema Federação da Agricultura do Paraná (FAEP) e Serviço Nacional de Aprendizagem Rural (Senar-PR), e tem a missão de desafiar e incentivar jovens
+            paranaenses à elaborar soluções para o mundo real. Há várias categorias nessa competição, como: Robótica, redação, língua inglesa, programação, entre outras.
+        </p>
+        <p>Esse site foi desenvolvido pelo <strong>Wesley Gonçalves Ribeiro</strong>, estudante de 2°ano do EM no <a href="https://www.cep.pr.gov.br/">Colégio Estadual do Paraná</a>, que em busca de se desafiar, entrou nessa jornada de aprendizagem e conhecimento.</p>
+    </div>
+
+    <div id="footer">
+        <footer>
+
+            <div class="custom-shape-divider-top-1722294385">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>
