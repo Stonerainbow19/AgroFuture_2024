@@ -9,8 +9,16 @@
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         body {  
             background-color: #0e0c0c;
+            position: relative;
+            min-height: 300vh;
+            height: 300vh;
         }
 
         @keyframes digitando {
@@ -25,6 +33,7 @@
             }
         }
 
+        
         h1 {
         color: white;
         font-family: "Bebas Neue", sans-serif;
@@ -34,7 +43,7 @@
         width: 20ch;
         white-space: nowrap;
         overflow: hidden;
-        animation: digitando 2s steps(21),
+        animation: digitando 1s steps(10),
         piscando 0.5s infinite step-end alternate;
         margin:5% auto 0 auto;
         font-size: 5em;
@@ -43,11 +52,282 @@
 
 
 
+     
+        h2 {
+            text-align: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3rem;
+            color: #94F87F ;
+            padding-bottom: 2rem;
+        }
+
+        p {
+            color: white;
+            font-family: 'Dosis';
+            font-size: 1.2rem;
+        }
+
+        #titulo {
+            height: auto;
+            width: 100%;
+            min-height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: #779b70;
+        }
+
+        #txt {
+            margin: 5rem auto;
+            width: 50%;
+            padding: 2rem;
+        }
+
+        .custom-shape-divider-bottom-1722291941 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1722291941 svg {
+            position: relative;
+            display: block;
+            width: calc(151% + 1.3px);
+            height: 50px;
+        }
+
+        .custom-shape-divider-bottom-1722291941 .shape-fill {
+            fill: #0e0c0c;
+        }
+
+        a {
+            text-decoration: none;
+            color: #94F87F;
+            font-weight: bold;
+            transition: 1s ease-in-out;
+        }
+
+        a:hover {
+            color: #1e3b18;
+        }
+
+        footer {
+            min-height: 30vh;
+            height: auto;
+            width: 100%;
+            background-color: #779b70;
+            position: absolute;
+            bottom: 0;
+            position: relative;
+        }
+
+        .custom-shape-divider-top-1722294385 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .custom-shape-divider-top-1722294385 svg {
+            position: relative;
+            display: block;
+            width: calc(139% + 1.3px);
+            height: 54px;
+        }
+
+        .custom-shape-divider-top-1722294385 .shape-fill {
+            fill: #0e0c0c;
+        }
+
+        
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        
+        #mvp {
+            color: #94F87F;
+            font-weight: bold;
+            font-family: 'Dosis';
+            list-style:disc;
+            margin: 2rem 0;
+        }
+
+        .cred {
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+            border: 2px solid #1d1c1c;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center ;
+            padding: 2rem 0;
+            border-radius: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .cred ul {
+            width: 100%;
+        }
+
+        .cred li {
+            width: 100%;
+            padding: 1rem 0 ;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+            font-family: 'Dosis';
+            transition: 0.5s ease-in-out;
+            border: 1px solid #1d1c1c;
+        }
+
+        .cred li:hover {
+            background-color: #779b70;
+            color: #1e3b18;
+            font-weight: bold;
+        }
+
+
+        @media  screen and  (min-device-width: 300px) and (max-device-width: 640px){
+            h1 {
+                color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        border-right: 4px solid;
+        width: 20ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: digitando 1s steps(10),
+        piscando 0.5s infinite step-end alternate;
+        margin:5% auto 0 auto;
+        font-size: 2.5em;
+            }
+            #txt {
+            margin: 5rem auto;
+            width: 90%;
+            padding: 2rem;
+        }
+    
+
+        .cred {
+            width: 100%;
+        }
+
+        .custom-shape-divider-top-1722294385 svg {
+            position: relative;
+            display: block;
+            width: calc(139% + 1.3px);
+            height: 14px;
+        }
+
+        }
+
+        #credf {
+            margin-bottom: 20%;
+        }
+
+        
+
+
 
 
     </style>
 </head>
 <body>
-    <h1>Créditos e Referências</h1>
+    <div id="titulo">
+        <h1>Créditos e Referências</h1>
+        <div class="custom-shape-divider-bottom-1722291941">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div id="txt">
+        <p>Nessa etapa, foi necessária a ajuda de várias pessoas e materiais pela internet. Essa página tem a função de demonstrar a minha gratidão a cada envolvido nessa jornada. <a>Meu sincero obrigado!</a></p>
+        <p>Todos mencionados aqui possui grande importância no desenvolvimento desse projeto, porém alguns se destacam:</p>
+        <ul id="mvp">
+            <li>Professora Giovana Leminska -- Matemática II</li>
+            <li><a href="https://www.cep.pr.gov.br/">Colégio Estadual do Paraná</a></li>
+            <li><a href="https://www.alurastart.com.br/">Alura Start</a></li>
+            <li><a href="https://www.educacao.pr.gov.br/programacao">Programação Paraná</a></li>
+
+        </ul>
+    </div>
+
+
+    
+
+    <div class="cred">
+        <h2>Dados e estatísticas</h2>
+
+        <ul>
+
+            <a href="https://materiais.distrito.me/report/agtech-report"><li>AgroReport 2023 - DISTRITO</li></a>
+            <a href="https://www.youtube.com/watch?v=O-4Z3t2So58&t=140s"><li>Desenvolvedores e Agtechs: Como a Tecnologia está Revolucionando a Agricultura (ft Syngenta Digital) -- Attekita Dev</li></a>
+            <a href="https://www.youtube.com/watch?v=ABdycZsS8GE"><li> O que é Agritech (agtech)? Startups no Agronegócio, tecnologia e inovação! - Guto Quirós</li></a>
+
+        </ul>
+    </div>
+
+
+
+    <div class="cred">
+
+        <h2>IMAGENS E VIDEOS</h2>
+        <ul>
+            
+            <a href="https://www.flaticon.com/br/"><li>Flaticon</li></a>
+            <a href="https://br.freepik.com/"><li>Freepik</li></a>
+            <a href="https://www.flaticon.com/br/icones-gratis/biotecnologia"><li>Biotecnologia ícones criados por Freepik - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-gratis/gestao" title="gestão ícones"><li>Gestão ícones criados por srip - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-gratis/gestao-da-cadeia-de-abastecimento" title="gestão da cadeia de abastecimento ícones"><li>Gestão da cadeia de abastecimento ícones criados por Ida Desi Mariana - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-gratis/producao" title="produção ícones"><li>Produção ícones criados por juicy_fish - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-gratis/sustentavel" title="sustentável ícones"><li>Sustentável ícones criados por Freepik - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-animados-gratis/grafico" title="gráfico ícones animados"><li>Gráfico ícones animados criados por Freepik - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-animados-gratis/energia-verde" title="energia verde ícones animados"><li>Energia verde ícones animados criados por Freepik - Flaticon</li></a>
+            <a href="https://www.flaticon.com/br/icones-animados-gratis/conhecimento" title="conhecimento ícones animados"><li>Conhecimento ícones animados criados por Freepik - Flaticon</li></a>
+
+
+        </ul>
+    </div>
+
+
+    <div class="cred" id="credf">
+        <h2>FERRAMENTAS DE DESENVOLVIMENTO</h2>
+        <ul>
+            <a href="https://www.shapedivider.app/"><li>Custom Shape Dividers</li></a>
+            <a href="https://code.visualstudio.com/"><li>IDE VS code</li></a>
+            <a href="https://vercel.com"><li>Vercel</li></a>
+            <a href="https://github.com/"><li>GitHub</li></a>
+            
+        </ul>
+    </div>
+
+
+    <div id="footer">
+        <footer>
+            <div class="custom-shape-divider-top-1722294385">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </footer>
+    </div>
+
+
 </body>
 </html>

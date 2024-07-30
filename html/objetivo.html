@@ -7,9 +7,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
         body {  
             background-color: #0e0c0c;
+            position: relative;
+            min-height: 130vh;
         }
 
         @keyframes digitando {
@@ -33,20 +39,169 @@
         width: 8ch;
         white-space: nowrap;
         overflow: hidden;
-        animation: digitando 1s steps(9),
+        animation: digitando 1s steps(10),
         piscando 0.5s infinite step-end alternate;
         margin:5% auto 0 auto;
         font-size: 5em;
         
         }
 
+        p {
+            color: white;
+            font-family: 'Dosis';
+            font-size: 1.2rem;
+        }
 
+        #titulo {
+            height: auto;
+            width: 100%;
+            min-height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: #569449;
+        }
 
+        #txt {
+            margin: 5rem auto;
+            width: 50%;
+            padding: 2rem;
+        }
+
+        .custom-shape-divider-bottom-1722291941 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1722291941 svg {
+            position: relative;
+            display: block;
+            width: calc(151% + 1.3px);
+            height: 80px;
+        }
+
+        .custom-shape-divider-bottom-1722291941 .shape-fill {
+            fill: #0e0c0c;
+        }
+
+        a {
+            text-decoration: none;
+            color: #94F87F;
+            font-weight: bold;
+            transition: 1s ease-in-out;
+        }
+
+        a:hover {
+            color: #1e3b18;
+        }
+
+        footer {
+            min-height: 30vh;
+            height: auto;
+            width: 100%;
+            background-color: #569449;
+            position: absolute;
+            bottom: 0;
+            position: relative;
+        }
+
+        .custom-shape-divider-top-1722294385 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .custom-shape-divider-top-1722294385 svg {
+            position: relative;
+            display: block;
+            width: calc(139% + 1.3px);
+            height: 154px;
+        }
+
+        .custom-shape-divider-top-1722294385 .shape-fill {
+            fill: #0e0c0c;
+        }
+
+        
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        @media  screen and  (min-device-width: 300px) and (max-device-width: 640px){
+            h1 {
+                color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        border-right: 4px solid;
+        width: 7ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: digitando 1s steps(10),
+        piscando 0.5s infinite step-end alternate;
+        margin:5% auto 0 auto;
+        font-size: 2.5em;
+            }
+            #txt {
+            margin: 0 auto 100% auto;
+            width: 90%;
+            padding: 2rem 0 ;
+        }
+
+        .custom-shape-divider-top-1722294385 svg {
+            position: relative;
+            display: block;
+            width: calc(139% + 1.3px);
+            height: 100px;
+        }
+    }
 
 
     </style>
 </head>
 <body>
-    <h1>Objetivo</h1>
+    <div id="titulo">
+        <h1>Objetivo</h1>
+        <div class="custom-shape-divider-bottom-1722291941">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div id="txt">
+        <p>
+            Desde a revolução industrial, vemos um grande fluxo de pessoas saindo do campo para viver na cidade em busca de melhorias de vida. Porém os tempos mudaram, como aprensentado anteriormente
+            , percebemos que o meio rural é um setor rico, e de extrema importância para a sociedade. Através dele, temos nosso almoço, janta, café da tarde entre todo tipo de alimentação, tudo vem da matéria-prima do campo.
+            Por mais de que muitos não acreditem, a tecnologia está cada vez em mais ascentamento sobre esse setor, e exemplificamos isso atráves das Agtechs brasilieiras.
+        </p>
+        <p>
+            Enfim, nosso objetivo é aprensentar oportunidades que o mercado de <strong>Agtechs</strong> oferece e a relação inseparável entre a Tecnologia e o Campo. Através dos conceitos que aprendemos
+            podemos repensar sobre nossa carreira e metas, mostrando o grande crescimento nesse setor que às vezes não é tão conhecido como deveria.
+        </p>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <div class="custom-shape-divider-top-1722294385">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>
