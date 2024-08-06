@@ -1,4 +1,4 @@
-<div>
+<div style='display:flex'>
 <img src='img/logo.png' width='20%'>
 <h1>AGROFUTURE</h1>
 </div>
