@@ -1,5 +1,6 @@
 /*Importação de arquivos CSS*/
 
+@import url('/css/reset.css');
 @import url('header.css');
 @import url('sec01.css');
 @import url('bg-video.css');
