@@ -1,7 +1,6 @@
 <h1>AgroFuture </h1>
 <div class="responsividade">
-    <img src="img/notebook.png" width="40%">
-    <img src="img/Smartphone.png" width="30%">
+    <img src='img/.github/responsividade.png' width='100%'>
 </div>
 
 
