@@ -1,6 +1,6 @@
 <div style='display:flex'>
 <img src='img/logo.png' width='20%'>
-<h1>AGROFUTURE</h1>
+<h1>AgroFuture</h1>
 </div>
 
 <div class="responsividade">
