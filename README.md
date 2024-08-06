@@ -1,4 +1,8 @@
+<div>
+<img src='img/logo.png' width='20%'>
 <h1>AGROFUTURE</h1>
+</div>
+
 <div class="responsividade">
     <img src='img/.github/responsividade.png' width='100%'>
 </div>
