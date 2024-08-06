@@ -1,4 +1,4 @@
-<h1>AgroFuture </h1>
+<h1>AGROFUTURE</h1>
 <div class="responsividade">
     <img src='img/.github/responsividade.png' width='100%'>
 </div>
