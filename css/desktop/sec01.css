@@ -94,7 +94,7 @@
   }
 
   .btn:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     font-weight: 700;
   }
@@ -120,10 +120,4 @@
     fill: var(--cor-terciaria);
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722118186 svg {
-        width: calc(209% + 1.3px);
-        height: 235px;
-    }
-}
+
