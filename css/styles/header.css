@@ -1,5 +1,6 @@
+/* Desktop */ 
+
 header {
-    /*background-color: var(--cor-primaria);*/
     background: #000000e5;
     width: 100%;
     color: var(--branco);
@@ -12,20 +13,11 @@ header nav {
     justify-content: space-between;
 }
 
-
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 img {
     width:80px;
     height: auto;
-    padding:10px 50px
+    padding:10px 50px;
 }
-
-
 
 #menu {
     overflow: auto;
@@ -33,12 +25,12 @@ img {
     top:0;
     right: 0;
     position: absolute;
-    width: 20%;
     height: 0;
     background-color: #1f1e1edc;
-    border-radius: 0 0 0 2rem;
     z-index: 2000;
     transition: 1s all;
+    width: 20%;
+    border-radius: 0 0 0 2rem;
 }
 
 #menu ul {
@@ -92,3 +84,19 @@ label span {
     margin: 0 2rem;
 }
 
+
+
+/* Mobile */
+@media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
+
+    img {
+        padding:5px 30px;
+    }
+
+    #menu {
+        width: 100%;
+        border-radius: none;
+    }
+
+
+}

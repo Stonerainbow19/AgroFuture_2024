@@ -1,5 +1,5 @@
+
 header {
-    /*background-color: var(--cor-primaria);*/
     background: #000000e5;
     width: 100%;
     color: var(--branco);
@@ -17,6 +17,7 @@ header nav {
 img {
     width:80px;
     height: auto;
+
     padding:5px 30px
 }
 
@@ -85,4 +86,6 @@ label span {
     opacity: 0;
     margin: 0 2rem;
 }
+
+
 

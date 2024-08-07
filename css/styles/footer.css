@@ -83,3 +83,30 @@ button:hover {
     background-color: #636363;
     color: #ebebeb;
 }
+
+
+/* Mobile - Dispositivo Móvel */
+@media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
+    footer {
+        flex-direction: column;
+
+    }
+    
+    .siga {
+        width: 100%;
+    }
+    
+
+
+    .feedback {
+        width: auto;
+        text-align: center;
+    }
+
+    #caixa-feedback {
+        justify-content: center;
+        padding: 1rem 0 ;
+
+    }
+
+  }

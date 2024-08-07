@@ -1,3 +1,4 @@
+/* Desktop - Computador */
 #sec07 {
     width: 100%;
     min-height: 80vh;
@@ -38,8 +39,8 @@
 .resposta{
     overflow: hidden;
     padding: 2rem 0 ;
-    background-color: #2c2c2c;
     border: 1px solid #414141;
+    background-color: #2c2c2c;
     display: none;
     height: 0;
     transition: 1s all;
@@ -79,3 +80,24 @@
     background-color: #3d493a;
 }
 
+/* Mobile - Dispositivo Móvel */
+@media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
+    
+
+
+
+    /* Phone - Celular */
+    @media  screen and (max-device-width:640px) {
+
+        #sec07 h2 {
+            text-align: center;
+            padding: 1rem 0;
+        }
+        
+        .perguntas {
+            width: 90%;
+            margin-bottom: 3rem;
+        }
+
+    }
+  }

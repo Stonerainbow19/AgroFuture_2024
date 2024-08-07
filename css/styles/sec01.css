@@ -1,3 +1,4 @@
+/* Desktop - Computador */
 #sec01 {
     position: relative;
     color:white;
@@ -39,6 +40,7 @@
     piscando 0.5s infinite step-end alternate;
     margin-top: 10%;
     font-size: 5em;
+    
 }
 
 #titulo p {
@@ -48,6 +50,7 @@
     font-weight: 700;
     font-style: normal;
     font-size: 1.3em;
+
 }
 
 #scroll-box {
@@ -87,19 +90,18 @@
     border-radius: 10px;
     display: block;
     text-decoration: none;
-    /*border: 1px solid black;*/
     cursor: pointer;
     transition: 0.5s;
 
   }
 
-  .btn:hover {
+.btn:hover {
     background-position: right center;
     color: #fff;
     font-weight: 700;
   }
 
-  .custom-shape-divider-bottom-1722118186 {
+.custom-shape-divider-bottom-1722118186 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -121,3 +123,38 @@
 }
 
 
+
+/* Mobile - Dispositivo Móvel */
+@media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
+    #sec01 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Phone - Celular */
+    @media  screen and (max-device-width:640px) {
+
+        #titulo {
+            height: 100%;
+        }
+    
+        #titulo h1{
+            font-size: 2rem;
+    
+        }
+    
+        #titulo p{
+            font-size: 0.9rem;
+    
+        }
+    
+        .custom-shape-divider-bottom-1722118186 svg {
+            width: calc(209% + 1.3px);
+            height: 150px;
+        }
+    
+    }
+
+}
