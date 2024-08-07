@@ -136,26 +136,25 @@
     /* Phone - Celular */
     @media  screen and (max-device-width:640px) {
 
-        #titulo {
-            height: 100%;
-        }
+                 
     
         #titulo h1{
             font-size: 2.5rem;
     
         }
+         
     
         #titulo p{
             font-size: 0.9rem;
     
         }
-        
+          
     
         .custom-shape-divider-bottom-1722118186 svg {
             width: calc(209% + 1.3px);
             height: 150px;
         }
-    
+
     }
 
 }
