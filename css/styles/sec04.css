@@ -135,7 +135,6 @@
             width: 200px;
             flex-direction: column;
             margin: 2rem 0;
-            transition: 2s all;
         }
 
         .area:hover {
