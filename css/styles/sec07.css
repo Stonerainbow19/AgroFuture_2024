@@ -21,7 +21,7 @@
 }
 
 .perguntas {
-    width: auto;
+    width: 60%;
     min-height: 50vh;
     background:transparent;
 }
@@ -83,9 +83,6 @@
 /* Mobile - Dispositivo Móvel */
 @media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
     
-
-
-
     /* Phone - Celular */
     @media  screen and (max-device-width:640px) {
 
