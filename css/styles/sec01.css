@@ -124,7 +124,7 @@
 
 
 
-/* Mobile - Dispositivo Móvel */
+/* Mobile - Dispositivo Móvel *//*
 @media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
     #sec01 {
         display: flex;
@@ -159,8 +159,8 @@
         color: #fff;
         font-weight: 700;
       }
-
-    /* Phone - Celular */
+*/
+    /* Phone - Celular *//*
     @media  screen and (max-device-width:640px) {
 
         #titulo {
@@ -185,3 +185,4 @@
     }
 
 }
+*/
