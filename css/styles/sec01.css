@@ -124,7 +124,7 @@
 
 
 
-/* Mobile - Dispositivo Móvel *//*
+/* Mobile - Dispositivo Móvel */
 @media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
     #sec01 {
         display: flex;
@@ -132,35 +132,8 @@
         justify-content: center;
         align-items: center;
     }
-
-
-    .btn {
-        font-family: "Dosis", sans-serif;
-        font-weight: 500;
-        background-image: linear-gradient(to right, #414d0b 0%, #727a17  51%, #414d0b  100%);
-        margin: 10px;
-        padding: 20px 45px;
-        text-align: center;
-        text-transform: uppercase;
-        background-size: 200% auto;
-        color: white;            
-        border: 0;
-        border-radius: 10px;
-        display: block;
-        text-decoration: none;
-        cursor: pointer;
-        transition: 0.5s;
-        z-index: 200;
-    
-      }
-    
-    .btn:hover {
-        background-position: right center;
-        color: #fff;
-        font-weight: 700;
-      }
-*/
-    /* Phone - Celular *//*
+      
+    /* Phone - Celular */
     @media  screen and (max-device-width:640px) {
 
         #titulo {
@@ -176,6 +149,7 @@
             font-size: 0.9rem;
     
         }
+        
     
         .custom-shape-divider-bottom-1722118186 svg {
             width: calc(209% + 1.3px);
@@ -185,4 +159,3 @@
     }
 
 }
-*/
