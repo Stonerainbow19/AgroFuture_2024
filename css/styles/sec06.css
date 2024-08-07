@@ -204,7 +204,7 @@ transition: 0.5s ease-in-out;
 @media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
     
     #sec06 h2{
-    padding:3rem 0 3rem 0;
+    padding:3rem 0 0.5rem 0;
     }   
 
     #sec06 h3 {

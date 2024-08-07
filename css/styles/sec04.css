@@ -127,6 +127,9 @@
     .areas-container {
         flex-direction: column;
     }  
+    .area {
+        margin: 2rem 0;
+    }
   
     /* Phone - Celular */
     @media  screen and (max-device-width:640px) {
@@ -134,7 +137,7 @@
             height: 200px;
             width: 200px;
             flex-direction: column;
-            margin: 2rem 0;
+
         }
 
         .area:hover {
