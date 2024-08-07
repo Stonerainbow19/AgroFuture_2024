@@ -1,3 +1,4 @@
+/* Desktop - Computador */
 #sec02 {
   height: auto;
     min-height: 100vh;
@@ -141,4 +142,38 @@
 
 .custom-shape-divider-bottom-1722116726 .shape-fill {
     fill: #141414e1;
+}
+
+
+
+/* Mobile - Dispositivo Móvel */
+@media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
+  #itens {
+    padding: 100px 0 ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      
+    }
+
+  .item {
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+  }
+
+  /* Phone - Celular */
+  @media  screen and (max-device-width:640px) {
+
+    #sec02 span {
+      font-size: 1em;
+    }
+
+    #sec02 h2{
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
 }

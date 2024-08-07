@@ -41,7 +41,6 @@
     animation: digitando 2s steps(21),
     piscando 0.5s infinite step-end alternate;
     margin-top: 10%;
-    font-size: 2.5em;
 }
 
 #titulo p {
@@ -97,7 +96,7 @@
   }
 
   .btn:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     font-weight: 700;
   }
@@ -111,8 +110,6 @@
     line-height: 0;
     transform: rotate(180deg);
 }
-
-
 
 .custom-shape-divider-bottom-1722118186 .shape-fill {
     fill: var(--cor-terciaria);

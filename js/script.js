@@ -37,7 +37,7 @@ new Chart(grafico1, {
         responsive: false,
         plugins: {
           legend: {
-            position: 'bottom',
+            position: 'bottom'
           },
           title: {
             display: true,

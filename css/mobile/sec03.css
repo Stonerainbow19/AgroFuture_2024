@@ -13,16 +13,16 @@
 
 .bloco-texto {
     color: white;
-    width: 100%;
-    font-size: 1em;
+    *width: 100%;
+    *font-size: 1em;
     text-align: start;
-    padding: 2rem 0;
+    *padding: 2rem 0;
 
 }
 
 .bloco-texto h2 {
     width: 100%;
-    font-size: 2rem 0;
+    font-size: 2rem;
     display: block;
     padding: 20px 0;
     font-weight: bold;

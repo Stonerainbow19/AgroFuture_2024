@@ -1,7 +1,7 @@
+/* Desktop - Computador */
+
 #sec06 {
-    background-color: #1b1b1ba4;
     background-color: #0a0909;
-    
     height: auto;
     width: 100%;
     color: white;
@@ -30,8 +30,6 @@
     text-align: center;
     color:#a9afa9d2;
     font-size: 1.2em;
-    
-    
 }
 
 #sec06 canvas {
@@ -62,6 +60,17 @@
     margin-bottom: 5rem;
 }
 
+
+#grafico01 {
+    background-color:  #0a0909;
+    position: relative;
+
+}
+#grafico02 {
+    background-color: #171a15;
+    position: relative;
+}
+
 #func {
     width: 100%;
     display: flex;
@@ -87,7 +96,8 @@
     border: 2px solid black;
     transition: 0.5s ease-in-out;
 }
-#sec06 .func-numeros p {
+
+.func-numeros p {
     text-align: center;
     font-size: 1rem;
     margin: 0 auto;
@@ -115,15 +125,6 @@ transition: 0.5s ease-in-out;
     font-weight: bold;
 }
 
-#grafico01 {
-    background-color:  #0a0909;
-    position: relative;
-
-}
-#grafico02 {
-    background-color: #171a15;
-    position: relative;
-}
 
 .custom-shape-divider-bottom-1722134220 {
     position: absolute;
@@ -147,13 +148,6 @@ transition: 0.5s ease-in-out;
     fill: #171a15;
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722134220 svg {
-        width: calc(100% + 1.3px);
-        height: 235px;
-    }
-}
 
 
 .custom-shape-divider-bottom-1722134318 {
@@ -175,14 +169,6 @@ transition: 0.5s ease-in-out;
 
 .custom-shape-divider-bottom-1722134318 .shape-fill {
     fill: #0a0909;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722134318 svg {
-        width: calc(100% + 1.3px);
-        height: 235px;
-    }
 }
 
 
@@ -207,14 +193,108 @@ transition: 0.5s ease-in-out;
     fill: #161414;
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1722137940 svg {
-        width: calc(140% + 1.3px);
-        height: 235px;
-    }
-}
+
 
 #descricao {
     padding-bottom: 10rem;
 }
+
+
+/* Mobile - Dispositivo Móvel */
+@media screen and  (min-device-width: 300px) and (max-device-width: 834px) {
+    
+    #sec06 h2{
+    padding:3rem 0 3rem 0;
+    }   
+
+    #sec06 h3 {
+        font-size: 1.5em;
+        padding: 2rem 0;
+    }
+
+    #sec06 canvas {
+        width: 100%;
+    }
+
+    
+    #sec06 p {
+        font-size: 1.5em;
+        padding-bottom: 2rem;
+    }
+    .txt {
+        width: 90%;
+    }
+
+    .grafico {
+        flex-direction: column;
+    }
+
+
+    
+    .gf {
+        margin-bottom: 3rem;
+        height: auto;
+        width: 100%;
+    }
+
+    #grafico01 {
+        flex-direction: column-reverse;
+        background-color:  #0a0909;
+        position: relative;
+    
+    }
+    #grafico02 {
+        background-color: #171a15;
+        position: relative;
+    }
+
+    #func {
+        display: grid;
+        grid-template-columns: repeat(2,20%);
+        padding: 3rem 0;
+        margin: 0  0 2rem 0;
+    }
+
+    .func-numeros {
+        margin: 2rem 0;
+    }
+
+
+
+    /* Phone - Celular */
+    @media  screen and (max-device-width:640px) {
+ 
+        #sec06 p {
+            font-size: 1em;
+            padding-bottom: 2rem;
+        }
+
+        .txt {
+                width: 100%;
+        }
+
+        #func {
+            grid-template-columns: repeat(2,45%);
+        }
+
+        .custom-shape-divider-bottom-1722134220 svg {
+            width: calc(100% + 1.3px);
+            height: 32px;
+        }
+
+        .custom-shape-divider-bottom-1722134318 svg {
+            width: calc(100% + 1.3px);
+            height: 57px;
+        }
+
+        .custom-shape-divider-bottom-1722137940 svg {
+            width: calc(140% + 1.3px);
+            height: 95px;
+        }
+
+
+
+
+
+    }
+  }
