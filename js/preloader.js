@@ -4,6 +4,7 @@ console.log("Testing... Ok");
 
 
 setTimeout(function() {
+  
   preloader.classList.remove("preloader");
   loader.classList.remove("loader");
   }, 1280);
