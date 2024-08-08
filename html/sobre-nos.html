@@ -23,6 +23,80 @@
             position: relative;
         }
 
+        
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            animation: spinz 1.35s linear infinite;
+            width: 100%;
+            height: 100%;
+            background-color: #000;       
+            z-index: 100;
+        }
+        
+        .loader {
+            display: flex;
+            flex-direction: row;
+            width: calc(50px*3);
+            justify-content: space-around;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -60px;
+            margin-left: -60px;
+            
+        }
+
+
+        .loader span {
+            display: block;
+            background-color: var(#94F87F);
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            animation: pulo .6s cubic-bezier(0.6, 0.1, 1, 0.4);
+            animation-iteration-count: infinite;
+            animation-direction: alternate ;
+        }
+
+
+        .loader span:nth-child(1) {
+            animation-delay: .1s;
+        }
+        .loader span:nth-child(2) {
+            animation-delay: .2s;
+        }
+        .loader span:nth-child(3) {
+            animation-delay: .3s;
+        }
+
+
+
+        
+        @keyframes spinz {
+            0% {
+            opacity:1;
+            }
+            50% {
+            opacity:1;
+            }
+            75% {
+            opacity:1;
+            }
+            100% {
+            opacity:0;
+            }
+        }
+
+
+        @keyframes pulo {
+            to {
+                transform: translateY(50px);
+            }
+        }
+        
         @keyframes digitando {
             from {
                 width:0;
@@ -170,12 +244,21 @@
             width: calc(139% + 1.3px);
             height: 100px;
         }
+
+
     }
 
 
     </style>
 </head>
 <body>
+    <div class="preloader" id="preloader">
+        <div class="loader" id="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
     <div id="titulo">
         <div>
             <h1>Sobre nós</h1>
@@ -202,6 +285,8 @@
         <p>Esse site foi desenvolvido pelo <strong>Wesley Gonçalves Ribeiro</strong>, estudante de 2°ano do EM no <a href="https://www.cep.pr.gov.br/">Colégio Estadual do Paraná</a>, que em busca de se desafiar, entrou nessa jornada de aprendizagem e conhecimento.</p>
     </div>
 
+
+    <script src="/js/preloader.js"></script>
 
 </body>
 </html>
