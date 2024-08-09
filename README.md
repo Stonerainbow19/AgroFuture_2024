@@ -2,7 +2,7 @@
 </div>
 
 <div class="responsividade">
-    <img src='img/.github/responsividade.png' width='100%'>
+    <img src='img/.github/readme.png' width='100%'>
 </div>
 
 
