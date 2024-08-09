@@ -349,3 +349,10 @@ function mostrar(question){
 
 
 }
+
+
+// FEEDBACK 
+
+function feedback(){
+    window.alert("Obrigado!! Sua opinião é muito importante. :)")
+}
