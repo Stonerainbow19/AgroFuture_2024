@@ -66,22 +66,25 @@ footer a {
     width: 100%;
 }
 
-#caixa-feedback input {
-    padding: 1rem;
-}
 
 button {
     border: none;
     background-color: #8f8f8f;
     transition: 0.5s ease-in-out;
     color: #010301;
-
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
 }
 
 button:hover {
     cursor: pointer;
     background-color: #636363;
     color: #ebebeb;
+}
+
+.btn-feedback {
+    width: 40%;
 }
 
 
@@ -107,6 +110,10 @@ button:hover {
         justify-content: center;
         padding: 1rem 0 ;
 
+    }
+
+    .btn-feedback {
+        width: 60%;
     }
 
   }

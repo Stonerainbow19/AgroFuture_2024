@@ -1,3 +1,8 @@
+
+
+
+
+
 // Gráfico --> Seção 05
 
 const grafico1 = document.getElementById('grafico1');
@@ -98,10 +103,6 @@ new Chart(grafico2, {
       },
 
 })
-
-
-
-
 
 
 
@@ -347,4 +348,11 @@ function mostrar(question){
     }
 
 
+}
+
+
+// FEEDBACK 
+
+function feedback(){
+    window.alert("Obrigado!! Sua opinião é muito importante. :)")
 }
