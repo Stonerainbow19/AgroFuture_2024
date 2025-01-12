@@ -47,11 +47,7 @@
     margin-bottom: 2rem;
 }
 
-<<<<<<< HEAD
-.video video {
-=======
 .video iframe {
->>>>>>> 7810afa0faa313bc81f8090842f7161ed47e0c08
     width: 100%;
     height: 100%;
     border-radius: 20px ;
